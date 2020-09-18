@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário</title>
+
+</head>
+
+<body>
+
+    <form action="cadastro.php" method="POST">
+       
+        <fieldset>
+            
+            <legend>Informações pessoais</legend>
+            
+            Nome: <br>
+            <input type="text" name="nome" autofocus> <br>
+            
+            Idade: <br>
+            <input type="text" name="nome" disabled> <br>
+            
+            Senha: <br>            
+            <input type="password" name="senha" required> <br>
+            
+            <input type="submit" name="btn-enviar" value="Enviar"> 
+           
+        </fieldset>
+        
+        <!-- 
+            required = Deixar um campo obrigatório
+            
+            autofocus = Deve obter o foco automaticamente quando a página é carregada.
+            
+            disabled = Deve desabilitar um campo.
+        -->
+
+    </form>
+
+</body>
+</html>
