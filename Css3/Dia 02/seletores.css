@@ -1,0 +1,57 @@
+*{ /* Seletor Universal */
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    color: purple;
+}
+/* Toda a propriedade dentro desse seletor irá formatar todas as outras tags, usado para definir uma formatação inicial */
+
+
+/* Toda propriedade dentro de um seletor "tag" irá substituir a formatação universal */ 
+
+h1 {
+    color: royalblue;
+
+}
+
+p {
+    text-align: justify;
+
+    font-size: 14px;
+    line-height: 18px;
+
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+/* Isso por que estou especificando o que exatamente essa tag vai ter de propriedades */
+
+/* Selecionando uma tag pelo seu atributo */
+
+input {
+    border: solid 1px royalblue;
+    
+    background-color: #ccc;
+
+    font-size: 20px;
+}
+
+/* Através do atributo especificado entre conchetes eu posso atribuir propriedades diferentes ao meu input */
+
+input[type="text"] {
+    border: solid 1px red;
+    
+    background-color: yellow;
+
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    color: white;
+    border: solid 1px green;
+    
+    background-color: blue;
+
+    font-size: 20px;
+}
