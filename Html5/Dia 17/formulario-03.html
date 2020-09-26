@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário</title>
+
+</head>
+
+<body>
+
+    <form action="cadastro.php" method="POST">
+       
+        <fieldset>
+            
+            <legend>Informações pessoais</legend>
+            
+            Nome: <br>
+            <input type="text" name="nome" autofocus maxlength="5"> <br>
+            
+            Idade: <br>
+            <input type="text" name="nome" disabled> <br>
+            
+            Email: <br>
+            <input type="email" name="email" required> <br>
+
+            Cidade: <br>
+            <input type="radio" name="cidade" value="Maceió" checked> Maceió <br>
+            <input type="radio" name="cidade" value="Arapiraca"> Arapiraca <br>
+
+            Horário: <br>
+            <input type="checkbox" name="hora" value="12:00" checked> 12:00 <br>
+            <input type="checkbox" name="hora" value="14:00"> 14:00 <br>
+            <input type="checkbox" name="hora" value="16:00"> 16:00 <br>
+
+            Senha: <br>            
+            <input type="password" name="senha" required> <br>
+            <br>
+            <input type="submit" name="btn-enviar" value="Enviar"> <br>
+           
+            Quantidade: <br>
+            <input type="number" name="Quantidade" min="0"  max="100" step="10"> <br>
+            
+            <br>
+
+            Mín<input type="range" name="Quantidade" value="10">Máx <br><br>
+            
+            Cor: <br>
+            <input type="color" name="Cor"> <br>
+           
+        </fieldset>
+        
+        <!-- 
+            Atributos:
+
+            min = Determina o valor mínimo.
+            
+            max =  Determina o valor máximo.
+
+            step = Define um intervalo especificado de um número pra outro.
+
+            Input Type: number, range, color.
+
+            number = Define o campa para receber um número.
+
+            range = Define um controle de intervalo (como um controle deslizante).
+
+            color = Mostrar um seletor de cores.
+        -->
+
+
+    </form>
+
+</body>
+</html>
+
