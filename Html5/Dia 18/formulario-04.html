@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário</title>
+
+</head>
+
+<body>
+
+    <form action="cadastro.php" method="POST">
+       
+        <fieldset>
+            
+            <legend>Informações pessoais</legend>
+            
+            Nome: <br>
+            <input type="text" name="nome" placeholder="Nome Completo" autofocus maxlength="5"> <br>
+            
+            Idade: <br>
+            <input type="text" name="nome" placeholder="Idade" disabled> <br>
+            
+            Email: <br>
+            <input type="email" name="email" autocomplete="off" placeholder="Email" required> <br>
+
+            Cidade: <br>
+            <input type="radio" name="cidade" value="Maceió" checked> Maceió <br>
+            <input type="radio" name="cidade" value="Arapiraca"> Arapiraca <br>
+
+            Horário: <br>
+            <input type="checkbox" name="hora" value="12:00" checked> 12:00 <br>
+            <input type="checkbox" name="hora" value="14:00"> 14:00 <br>
+            <input type="checkbox" name="hora" value="16:00"> 16:00 <br><br>
+
+            Senha: <br>            
+            <input type="password" name="senha" required> <br>
+            <br>
+            <input type="submit" name="btn-enviar" value="Enviar"> <br><br>
+           
+            Quantidade: <br>
+            <input type="number" name="Quantidade" min="0"  max="100" step="10"> <br>
+            
+            <br>
+
+            Mín<input type="range" name="Quantidade" value="10">Máx <br><br>
+            
+            Cor: <br>
+            <input type="color" name="Cor"> <br>
+           
+        </fieldset>
+        
+        <!-- 
+            Atributos:
+
+            placeholder = Especifica descrevendo o valor esperando de um campo.
+            
+            autocomplete =  Especifica se um campo de entrada deve ter o autocomplete habilitado (on) ou não (off).
+            obs: irá preencher o campo com base nos valores digitados anteriomente.
+
+        -->
+
+
+    </form>
+
+</body>
+</html>
+
