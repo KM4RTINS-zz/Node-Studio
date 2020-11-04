@@ -1,0 +1,21 @@
+/* Sem agrupamento */
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    color: blue;
+}
+
+/* Com agrupamento */
+h1, 
+h2, 
+p {
+    text-align: center;
+}
+
+/* Observe que as propriedades são as mesmas para cada elemento, então é bem mais prático agrupar os elementos para não ter que reescrever nosso código deixando-o mais limpo. */

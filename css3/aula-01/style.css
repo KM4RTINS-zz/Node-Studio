@@ -1,0 +1,18 @@
+/* Aplicando CSS3
+CSS3:   Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. 
+        O que ela faz é separar a parte estrutural escrita, ou seja, o conteúdo, da parte visual o design gráfico dessa mesma página.
+*/
+
+p {
+    text-align: justify;
+
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+/*
+Sintaxe: 
+    seletor{
+        propriedade: valor; 
+    }
+*/
