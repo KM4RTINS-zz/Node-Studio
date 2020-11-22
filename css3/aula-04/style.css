@@ -1,0 +1,21 @@
+/* Class */
+/* +Conteúdo: https://www.w3schools.com/html/html_classes.asp */
+
+.texto-principal {
+    color: red;
+    text-align: center;
+}
+.fundo-principal {
+    background-color: green;
+    padding: 20px;
+}
+
+/* Id */
+/* +Conteúdo: https://www.w3schools.com/cssref/sel_id.asp */
+
+#conteudo {
+    background-color: blue;
+    padding: 20px;
+    color: green;
+}
+
