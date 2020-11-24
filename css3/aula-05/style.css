@@ -1,0 +1,25 @@
+/* +Conteúdo: https://www.w3schools.com/cssref/css_units.asp */
+
+#conteudo {
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Unidades de Comprimento */
+
+body {
+    /* valor absoluto (fixo) */
+    width: 500px; 
+    height: 200px;
+
+    max-width: 500px;
+    max-height: 200px;
+
+    min-width: 500px;
+    min-height: 200px;
+
+    /* valor relativo (escalável) */
+    width: 80%;
+    height: 80%;
+}
