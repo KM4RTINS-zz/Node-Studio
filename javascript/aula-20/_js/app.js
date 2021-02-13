@@ -1,6 +1,6 @@
 alert("Objetos em JavaScript")
 
-// Um Objeto é uma coleção de propriedades, e uma propriedade é uma associação ente um nome (ou chave) e um valor. Um alor de propriedade pode ser uma função, que é então considerada um método do Objeto.
+// Um Objeto é uma coleção de propriedades, e uma propriedade é uma associação ente um nome (ou chave) e um valor. Um valor de propriedade pode ser uma função, que é então considerada um método do Objeto.
 
 let pessoa = { // Chaves indica um Objeto em Js
     nome: "Igor", // Propriedade: valor
