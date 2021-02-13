@@ -23,7 +23,7 @@ x++
 console.log(x) // 8
 // x++ | x = x + 1
 
-// Incremento 
+// Decremento 
 y--
 console.log(y) // 1
 // y-- | y = y - 1
